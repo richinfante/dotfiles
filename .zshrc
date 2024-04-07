@@ -9,3 +9,7 @@ export RPROMPT='%t'
 
 # set vim as editor
 export EDITOR='vim'
+
+# https://github.com/babun/babun/issues/527#issuecomment-804176221
+# Fix ^R inside tmux
+bindkey '^R' history-incremental-search-backward
