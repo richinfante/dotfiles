@@ -13,3 +13,7 @@ export EDITOR='vim'
 # https://github.com/babun/babun/issues/527#issuecomment-804176221
 # Fix ^R inside tmux
 bindkey '^R' history-incremental-search-backward
+
+# Fix ^A / ^E cursor movement
+bindkey '^A' beginning-of-line
+bindkey '^E' end-of-line
