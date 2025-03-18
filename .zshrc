@@ -17,3 +17,6 @@ bindkey '^R' history-incremental-search-backward
 # Fix ^A / ^E cursor movement
 bindkey '^A' beginning-of-line
 bindkey '^E' end-of-line
+
+# UUID generation shortcut
+alias uuid="python3 -c 'import uuid; print(uuid.uuid4())'"
