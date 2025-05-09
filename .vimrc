@@ -17,6 +17,7 @@ set mouse=a
 
 " OPTIONAL: color scheme
 " https://github.com/cocopon/iceberg.vim
+" mkdir -p ~/.vim/colors && curl 'https://raw.githubusercontent.com/cocopon/iceberg.vim/refs/heads/master/colors/iceberg.vim' > ~/.vim/colors/iceberg.vim
 " colorscheme iceberg
 
 " fix backspace behavior
